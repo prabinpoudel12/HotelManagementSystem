@@ -6,7 +6,8 @@ from django.contrib.auth import (login,
                                  logout,
                                  )
 from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
+
 
 class BootstrapAuthenticationForm(AuthenticationForm):
     """Authentication form which uses boostrap CSS."""
